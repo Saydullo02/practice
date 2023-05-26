@@ -1,0 +1,70 @@
+.customer{
+    
+    &__title{
+        font-family: 'Roboto';
+        width: 687px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+        letter-spacing: 1.6px;
+        color: #212121;
+        margin: 0;
+        margin-left: 228px;
+        margin-bottom: 79px;
+        
+    }
+    
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__image{
+        width: 325px;
+        height: 184px;
+        vertical-align: middle;
+        margin-bottom: 26px;
+    }
+    
+    &__text{
+        font-family: 'Roboto';
+        width: 327px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.4px;
+        color: #212121;
+        margin: 0;
+        margin-bottom: 22px;
+        
+    }
+    
+    &__link{
+        display: inline-block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #F46A35;
+        margin-bottom: 81px;
+        
+    }
+    
+    &__list2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 161px;
+    }
+    
+    &__item2{
+        background-color: #FFFFFF;
+        border-radius: 0px;
+    }
+    
+}

@@ -1,0 +1,152 @@
+.solution{
+
+    &__left-wrapper{
+        margin-bottom: 167px;
+    }
+    
+    &__title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        letter-spacing: 1.6px;
+        color: #212121;
+        margin: 0;
+        margin-bottom: 8px;
+    }
+    
+    &__text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #212121;
+        margin: 0;
+        margin-bottom: 48px;
+    }
+    
+    &__list{
+        display: flex;
+        padding-left: 28px;
+        max-width: 580px;
+        background-image: url('./../../image/dark.png'), url('./../../image/ochroq.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }
+    
+    &__left-item{
+        max-width: 580px;
+        height: 641px;
+    }
+    
+    &__left-heading{
+        font-family: 'Roboto';
+        width: 472px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.64px;
+        color: #FFFFFF;
+        padding-top: 48px;
+        margin: 0;
+        margin-bottom: 10px;
+        
+    }
+    
+    &__left-text{
+        font-family: 'Roboto';
+        width: 476px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.32px;
+        color: #FFFFFF;
+        margin: 0;
+        margin-bottom: 22px;
+        
+    }
+    
+    
+    &__left-link{
+        font-family: 'Roboto';
+        display: inline;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        padding: 13px;
+        padding-left: 41px;
+        padding-right: 41px;
+        margin-left: 157px;
+        align-items: center;
+        padding-right: 41px;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    
+    &__right-item{
+        width: 580px;
+        height: 641px;
+        background-image: url('./../../image/ochroq.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    &__right-heading2{
+        font-family: 'Roboto';
+        width: 472px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        padding-top: 48px;
+        letter-spacing: 0.64px;
+        color: #212121;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    &__right-text2{
+        font-family: 'Roboto';
+        width: 456px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px; 
+        text-align: center;
+        padding-left: 31px;
+        letter-spacing: 0.32px;
+        color: #212121;
+        margin: 0;  
+        margin-bottom: 22px;
+    }
+    
+    &__right-link2{
+        font-family: 'Roboto';
+        display: inline;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #212121;
+        padding: 13px;
+        padding-left: 41px;
+        padding-right: 41px;
+        margin-left: 160px;
+        border: 1px solid #212121;
+        border-radius: 10px;
+    }
+}

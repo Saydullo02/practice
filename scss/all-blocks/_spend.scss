@@ -1,0 +1,50 @@
+.spend{
+    
+    
+    &__wrapper{
+        margin-bottom: 251px;
+    }
+
+    &__title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px; 
+        letter-spacing: 1.6px;
+        color: #212121;
+        margin: 0;
+        margin-bottom: 21px;
+    }
+    
+    &__text{
+        font-family: 'Roboto';
+        width: 850px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color: #212121;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+    
+    &__link{
+        font-family: 'Roboto';
+        display: inline-block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #212121;
+        margin-bottom: 40px;
+        border: 1px solid #212121;
+        border-radius: 10px;
+        padding: 13px;
+        margin-bottom: 54px;
+        
+    }
+    
+    
+}

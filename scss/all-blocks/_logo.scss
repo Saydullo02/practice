@@ -1,0 +1,12 @@
+.logo{
+
+    &__wrapper{
+        margin-bottom: 160px;
+    }
+    
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
