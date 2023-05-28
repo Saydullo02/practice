@@ -1,0 +1,23 @@
+.linkers{
+
+    margin-bottom: 131px;
+
+    &__left-list{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    &__left-item{
+        margin-right: 25px;
+    }
+
+    &__right-list{
+        display: flex;
+        align-items: center;
+    }
+
+    &__right-item{
+        margin-right: 30px;
+    }
+}

@@ -1,11 +1,11 @@
 .header{
+    margin-bottom: 12px;
+    padding: 0;
     
     &__wrapper{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0;
-        margin-bottom: 12px;
     }
     
     &__list-left{
@@ -24,7 +24,10 @@
     
     &__item-link{
         font-family: "Roboto";
-        display: inline-block;
+        // display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
