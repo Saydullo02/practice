@@ -673,7 +673,7 @@ footer {
     font-size: 38px;
     line-height: 48px;
     letter-spacing: 1.6px;
-    padding-left: 100px;
+    padding-left: 118px;
   }
   .hero__left-wrapper {
     display: flex;
@@ -684,7 +684,7 @@ footer {
     display: flex;
     align-items: center;
     margin: 0;
-    padding-left: 100px;
+    padding-left: 118px;
   }
   .hero__left-item {
     margin-bottom: 10px;
@@ -700,7 +700,7 @@ footer {
     letter-spacing: 0.4px;
   }
   .hero__bottom-list {
-    padding-left: 100px;
+    padding-left: 118px;
   }
   .hero__bottom-text {
     width: 100%;
@@ -712,7 +712,7 @@ footer {
     letter-spacing: 0.28px;
   }
   .hero__right-wrapper {
-    padding-left: 100px;
+    padding-left: 118px;
   }
   .hero__right-img {
     width: 390px;
