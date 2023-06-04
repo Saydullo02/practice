@@ -120,14 +120,129 @@
         margin-bottom: 31px;
         
     }
-
+    
     &__right-img{
-        width: 100%;
-        max-width: 600px;
-        min-height: 740px;
+        width: 600px;
+        height: 740px;
         object-fit: contain;
         vertical-align: middle;
         margin-bottom: 60px;
     }
     
+}
+
+
+
+@media only screen and (max-width: 990px){
+    
+    .hero{
+        
+        &__box{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__left-wrapper{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        &__left-list{
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding-left: 10px;
+        }
+        
+        
+        &__left-item{
+            margin-bottom: 10px;
+        }
+        
+        &__right-wrapper{
+            width: 600px;
+            height: auto;
+        }
+        
+        &__bottom-title{
+            font-size: 22px;
+            line-height: 20px;
+            letter-spacing: 0.40px;
+        }
+        
+        &__bottom-text{
+            width: 100%;
+            max-width: 300px;
+            min-height: 40px;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+        }
+    }
+}
+@media only screen and (max-width: 566px){
+    
+    .hero{
+        
+        &__box{
+            display: flex;
+            align-items: center;
+        }
+        
+        &__heading{
+            font-size: 38px;
+            line-height: 48px;
+            letter-spacing: 1.6px;
+            padding-left: 63px;
+        }
+        
+        &__left-wrapper{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        &__left-list{
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding-left: 68px;
+        }
+        
+        
+        &__left-item{
+            margin-bottom: 10px;
+            
+        }
+        
+        &__right-wrapper{
+            width: 600px;
+            height: auto;
+        }
+        
+        &__bottom-title{
+            align-items: center;
+            font-size: 22px;
+            line-height: 20px;
+            letter-spacing: 0.40px;
+        }
+        
+        &__bottom-list{
+            padding-left: 68px;
+        }
+        
+        &__bottom-text{
+            width: 100%;
+            max-width: 300px;
+            min-height: 40px;
+            align-items: center;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+        }
+
+        &__right-wrapper{
+            padding-left: 68px;
+        }
+    }
 }
