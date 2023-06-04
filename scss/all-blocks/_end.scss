@@ -39,6 +39,9 @@
     }
     
     &__link{
+        width: 100%;
+        max-width: 160px;
+        min-height: 48px;
         font-family: 'Roboto';
         display: inline-block;
         font-style: normal;
@@ -48,32 +51,31 @@
         color: #FFFFFF;
         margin-right: 16px;
         background: #F46A35;
-        padding: 13px;
-        padding-left: 32px;
-        padding-right: 32px;
+        padding: 13px 32px;
         border: 1px solid #F46A35;
         border-radius: 10px;
         
     }
     
     &__link2{
+        width: 100%;
+        max-width: 160px;
+        min-height: 48px;
         font-family: 'Roboto';
-        display: inline-block;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 22px;
         color: #212121;
-        padding: 13px;
-        padding-right: 32px;
-        padding-left: 32px;
         border: 1px solid #212121;
         border-radius: 10px;
+        padding: 13px 21px;
     }
-
+    
     &__right-image{
-        width: 552px;
-        height: 451px;
+        width: 100%;
+        min-width: 552px;
+        max-width: 451px;
         vertical-align: middle;
     }
 }

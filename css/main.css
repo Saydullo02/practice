@@ -379,29 +379,22 @@ footer {
 
 .header {
   margin-bottom: 12px;
-  padding: 0;
-}
-.header__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding-top: 21px;
 }
 .header__list-left {
   display: flex;
   align-items: center;
 }
 .header__logo-img {
-  width: 78px;
+  width: 100%;
+  max-width: 78px;
   height: 28px;
   vertical-align: middle;
   margin-right: 29px;
-  padding-left: 0;
 }
 .header__item-link {
   font-family: "Roboto";
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: inline-block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -414,6 +407,10 @@ footer {
 .header__right-side {
   display: flex;
   align-items: center;
+}
+.header__right-list {
+  margin: 0;
+  margin-bottom: 8px;
 }
 .header__right-link {
   font-family: "Roboto";
@@ -428,6 +425,10 @@ footer {
 }
 .header__right-link3 {
   font-family: "Roboto";
+  width: 100%;
+  max-width: 148px;
+  min-height: 36px;
+  display: inline-block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -447,7 +448,7 @@ footer {
   justify-content: space-between;
 }
 .hero__left-wrapper {
-  margin-top: 76px;
+  padding-top: 76px;
   padding-left: 24px;
 }
 .hero__heading {
@@ -472,6 +473,9 @@ footer {
 }
 .hero__left-link {
   font-family: "Roboto";
+  max-width: 100%;
+  max-width: 160px;
+  min-height: 48px;
   display: inline-block;
   font-style: normal;
   font-weight: 400;
@@ -489,6 +493,9 @@ footer {
 .hero__left-link2 {
   font-family: "Roboto";
   display: inline-block;
+  max-width: 100%;
+  max-width: 160px;
+  min-height: 48px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -542,8 +549,11 @@ footer {
   margin-bottom: 31px;
 }
 .hero__right-img {
-  width: 600px;
-  height: 740px;
+  width: 100%;
+  max-width: 600px;
+  min-height: 740px;
+  -o-object-fit: contain;
+     object-fit: contain;
   vertical-align: middle;
   margin-bottom: 60px;
 }
@@ -586,19 +596,28 @@ footer {
 }
 .solution__list {
   display: flex;
-  padding-left: 28px;
+  align-items: center;
+  width: 100%;
   max-width: 580px;
-  background-image: url("./../../image/dark.png"), url("./../../image/ochroq.png");
+  background-image: url("./../../image/backround-left.png");
   background-repeat: no-repeat;
   background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .solution__left-item {
+  width: 100%;
   max-width: 580px;
-  height: 641px;
+  min-height: 641px;
+  margin-right: 10px;
+}
+.solution__right-item {
+  width: 100%;
+  max-width: 580px;
+  min-height: 641px;
 }
 .solution__left-heading {
   font-family: "Roboto";
-  width: 472px;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -607,12 +626,13 @@ footer {
   letter-spacing: 0.64px;
   color: #FFFFFF;
   padding-top: 48px;
-  margin: 0;
+  margin: 0px;
   margin-bottom: 10px;
 }
 .solution__left-text {
+  width: 100%;
+  max-width: 476px;
   font-family: "Roboto";
-  width: 476px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -620,75 +640,86 @@ footer {
   text-align: center;
   letter-spacing: 0.32px;
   color: #FFFFFF;
+  padding-left: 52px;
   margin: 0;
   margin-bottom: 22px;
 }
 .solution__left-link {
+  width: 100%;
+  max-width: 160px;
+  min-height: 48px;
   font-family: "Roboto";
-  display: inline;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   color: #FFFFFF;
-  padding: 13px;
-  padding-left: 41px;
-  padding-right: 41px;
-  margin-left: 157px;
-  align-items: center;
-  padding-right: 41px;
   border: 1px solid #FFFFFF;
   border-radius: 10px;
+  padding: 13px 43px;
+  margin-left: 210px;
+}
+.solution__left-image {
+  width: 100%;
+  min-width: 580px;
+  max-height: 401px;
+}
+.solution__right-image {
+  width: 100%;
+  min-width: 580px;
+  max-height: 401px;
 }
 .solution__right-item {
-  width: 580px;
-  height: 641px;
-  background-image: url("./../../image/ochroq.png");
+  width: 100%;
+  max-width: 580px;
+  min-height: 641px;
+  background-image: url("./../../image/bacround-right.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .solution__right-heading2 {
   font-family: "Roboto";
-  width: 472px;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
   text-align: center;
-  padding-top: 48px;
   letter-spacing: 0.64px;
   color: #212121;
-  margin: 0;
+  padding-top: 48px;
+  margin: 0px;
   margin-bottom: 10px;
 }
 .solution__right-text2 {
+  width: 100%;
+  max-width: 476px;
   font-family: "Roboto";
-  width: 456px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  padding-left: 31px;
   letter-spacing: 0.32px;
   color: #212121;
-  margin: 0;
+  padding-left: 68px;
   margin-bottom: 22px;
+  margin: 0;
+  margin-bottom: 35px;
 }
 .solution__right-link2 {
+  width: 100%;
+  max-width: 160px;
+  min-height: 48px;
   font-family: "Roboto";
-  display: inline;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   color: #212121;
-  padding: 13px;
-  padding-left: 41px;
-  padding-right: 41px;
-  margin-left: 160px;
   border: 1px solid #212121;
   border-radius: 10px;
+  padding: 13px 43px;
+  margin-left: 210px;
 }
 
 .spend__wrapper {
@@ -718,6 +749,9 @@ footer {
   margin-bottom: 12px;
 }
 .spend__link {
+  width: 100%;
+  max-width: 203px;
+  min-height: 48px;
   font-family: "Roboto";
   display: inline-block;
   font-style: normal;
@@ -730,6 +764,11 @@ footer {
   border-radius: 10px;
   padding: 13px;
   margin-bottom: 54px;
+}
+.spend__girl-image {
+  width: 100%;
+  min-width: 1104px;
+  min-height: 621px;
 }
 
 .information__list {
@@ -782,8 +821,9 @@ footer {
 }
 
 .customer__title {
+  width: 100%;
+  max-width: 687px;
   font-family: "Roboto";
-  width: 687px;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -872,6 +912,9 @@ footer {
   align-items: center;
 }
 .end__link {
+  width: 100%;
+  max-width: 160px;
+  min-height: 48px;
   font-family: "Roboto";
   display: inline-block;
   font-style: normal;
@@ -881,29 +924,28 @@ footer {
   color: #FFFFFF;
   margin-right: 16px;
   background: #F46A35;
-  padding: 13px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 13px 32px;
   border: 1px solid #F46A35;
   border-radius: 10px;
 }
 .end__link2 {
+  width: 100%;
+  max-width: 160px;
+  min-height: 48px;
   font-family: "Roboto";
-  display: inline-block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   color: #212121;
-  padding: 13px;
-  padding-right: 32px;
-  padding-left: 32px;
   border: 1px solid #212121;
   border-radius: 10px;
+  padding: 13px 21px;
 }
 .end__right-image {
-  width: 552px;
-  height: 451px;
+  width: 100%;
+  min-width: 552px;
+  max-width: 451px;
   vertical-align: middle;
 }
 

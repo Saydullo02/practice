@@ -7,7 +7,7 @@
     }
     
     &__left-wrapper{
-        margin-top: 76px;
+        padding-top: 76px;
         padding-left: 24px;
     }
     
@@ -36,6 +36,9 @@
     
     &__left-link{
         font-family: 'Roboto';
+        max-width: 100%;
+        max-width: 160px;
+        min-height: 48px;
         display: inline-block;
         font-style: normal;
         font-weight: 400;
@@ -55,6 +58,9 @@
     &__left-link2{
         font-family: 'Roboto';
         display: inline-block;
+        max-width: 100%;
+        max-width: 160px;
+        min-height: 48px;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -116,8 +122,10 @@
     }
 
     &__right-img{
-        width: 600px;
-        height: 740px;
+        width: 100%;
+        max-width: 600px;
+        min-height: 740px;
+        object-fit: contain;
         vertical-align: middle;
         margin-bottom: 60px;
     }

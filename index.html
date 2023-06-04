@@ -12,14 +12,13 @@
     
     <h1 class="visually-hidden"></h1>
     
-    <header>
-        <div class="container-lg header__container">
-            <div class="row p-4">
-                
-                <div class="col-lg-8 header__wrapper">
+    <header class="header">
+        <div class="container header__container">
+            <div class="row header__top"> 
+                <div class="col-md-8 header__wrapper">
                     <ul class="header__list-left">
                         <li class="header__item-left">
-                            <a class="header__logo-img" href="#">
+                            <a class="header__logo-img d-inline-block" href="#">
                                 <img src="./image/header-log.svg" alt="">
                             </a>
                         </li>
@@ -51,11 +50,11 @@
                                 <img src="./image/Group2.svg" alt="">
                             </a>
                         </li>
-                    </ul>
-                    
+                    </ul> 
                 </div>
-                <div class="col-lg-4">
-                    <ol class="header__right-side">
+                
+                <div class="col-md-4">
+                    <ol class="header__right-side ">
                         <li class="header__right-list">
                             <a class="header__right-link" href="#">
                                 Open an account
@@ -72,17 +71,16 @@
                             </a>
                         </li>
                     </ol>
-                </div>
-                
+                </div>  
             </div>
         </div>
     </header>   
     
     <main>
         <section class="hero">
-            <div class="container-lg">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 hero__box">
+                    <div class="col hero__box">
                         <div class="hero__left-wrapper">
                             
                             <h2 class="hero__heading">
@@ -225,7 +223,7 @@
                                     Learn more
                                 </a>
                                 
-                                <img src="./image/telfon.png" alt="">
+                                <img class="solution__left-image" src="./image/phone.png" alt="phone-image" width="580" height="401">
                             </li>
                             
                             <li class="solution__right-item">
@@ -241,7 +239,7 @@
                                     Learn more
                                 </a>
                                 
-                                <img src="./image/card.png" alt="">
+                                <img class="solution__right-image" src="./image/carddddd.png " alt="card-image" width="580" height="401">
                             </li>
                         </ul>
                     </div>
@@ -265,7 +263,10 @@
                             See how budgets work
                         </a>
                         
-                        <img src="./image/girl.png" alt="girl image" width="1104" height="621">
+                    </div>
+
+                    <div class="col">
+                        <img class="spend__girl-image" src="./image/girl.png" alt="girl image" width="1104" height="621">
                     </div>
                 </div>
             </div>
@@ -377,9 +378,9 @@
         </section>
         
         <section class="end">
-            <div class="container-sm">
+            <div class="container">
                 <div class="row end__wrapper"> 
-                    <div class="col-sm-8">
+                    <div class="col-md-8">
                         <h3 class="end__title">
                             See what Brex can do for you.
                         </h3>
@@ -402,7 +403,7 @@
                         </ul>
                     </div> 
                     
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <img class="end__right-image" src="./image/target.png" alt="marketing-image" width="552" height="451">
                     </div>
                     

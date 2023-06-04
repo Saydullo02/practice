@@ -1,8 +1,9 @@
 .customer{
     
     &__title{
+        width: 100%;
+        max-width: 687px;
         font-family: 'Roboto';
-        width: 687px;
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
