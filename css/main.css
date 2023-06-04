@@ -408,10 +408,6 @@ footer {
   display: flex;
   align-items: center;
 }
-.header__right-list {
-  margin: 0;
-  margin-bottom: 8px;
-}
 .header__right-link {
   font-family: "Roboto";
   display: inline-block;
@@ -442,6 +438,81 @@ footer {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 1143px) {
+  .header__list-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header__item-link {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.24px;
+    margin-right: 20px;
+  }
+  .header__right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .header__right-link {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.14px;
+    color: #212121;
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .header__right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 841px) {
+  .header__list-left {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header__list-left {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .header__right-side {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .header__top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__list-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__right-side {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .header__right-side {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .header__right-side {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .hero__box {
   display: flex;
   align-items: center;
@@ -945,7 +1016,7 @@ footer {
 .end__right-image {
   width: 100%;
   min-width: 552px;
-  max-width: 451px;
+  height: auto;
   vertical-align: middle;
 }
 
